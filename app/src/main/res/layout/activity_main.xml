@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="99dp"
         android:layout_marginLeft="99dp"
-        android:layout_marginTop="41dp"
         android:layout_marginEnd="99dp"
         android:layout_marginRight="99dp"
         android:layout_marginBottom="217dp"
@@ -22,8 +21,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPeso" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"
@@ -31,33 +29,30 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
         android:layout_marginLeft="158dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="158dp"
         android:layout_marginRight="158dp"
         android:layout_marginBottom="200dp"
         android:text="Procesar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEstatura" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/txtPeso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="99dp"
-        android:layout_marginLeft="99dp"
-        android:layout_marginTop="65dp"
+        android:layout_width="186dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="99dp"
         android:layout_marginRight="99dp"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="86dp"
         android:ems="10"
         android:hint="Ingrese su peso (lb)"
         android:inputType="numberSigned"
         app:layout_constraintBottom_toTopOf="@+id/txtEstatura"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

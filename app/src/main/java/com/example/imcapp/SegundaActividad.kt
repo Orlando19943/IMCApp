@@ -15,13 +15,16 @@ class SegundaActividad : AppCompatActivity() {
         var imc = ""
         if (resultado < 18.5){
             imc = "Usted se encuentra por debajo de lo normal :("
+            imagen.setImageResource(R.drawable.ic_trofeobronce)
         }else if (resultado > 18.5 && resultado < 25){
             imc = "Usted se encuentra en lo normal :)"
         }
         else if (resultado > 25 && resultado < 30){
             imc = "Usted se encuentra un poco en sobrepeso -_- :)"
+            imagen.setImageResource(R.drawable.ic_trofeobronce)
         }else{
             imc = "Usted es obeso..."
+            imagen.setImageResource(R.drawable.ic_trofeobronce)
         }
         txtResultado.text = "Su masa corporal es de: $resultado"
         txtIMC.text = imc
